@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Card.module.css';
 function Card({ flag, name, alt }) {
     return (
-        <div className={style.card_container}>
+        <div className={`${style.card_container} countryCard`}>
             <section className={style.image_container}>
                 <img src={flag} alt={alt} />
             </section>
