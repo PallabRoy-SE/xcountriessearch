@@ -1,0 +1,14 @@
+.main-container {
+    width: 100%;
+    padding-inline: 7%;
+    padding-block: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.cards {
+    width: 8rem;
+    height: 7rem;
+}
